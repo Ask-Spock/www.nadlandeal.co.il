@@ -1,0 +1,16 @@
+/* ===================================== 
+   Page Styles
+======================================== */
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+  
+
+}
+
+
+body {
+	font-size: 1.4em;
+  font-weight: bold;
+}

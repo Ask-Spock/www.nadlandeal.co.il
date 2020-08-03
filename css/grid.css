@@ -1,0 +1,168 @@
+/* ===================================== 
+   Grid Layout
+======================================== */
+
+
+
+/*--------------------
+Media Query
+----------------------*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 600px) {
+   .example {
+      background: rgb(221, 46, 15);
+   }
+      
+   .container {
+      width: 100%;
+      margin: 0 auto;
+   }
+   
+}
+
+
+/* Large devices (laptops/desktops, 1200px and up) */
+@media only screen and (min-width: 1000px) {
+   .example {
+      background: rgb(0, 47, 255);
+   }
+
+   .container {
+      width: 100%;
+      margin: 0 auto;
+   }
+
+}
+
+ /*Laptop & desktop displays (1200px+)  */
+ @media only screen and (min-width: 1200px) {
+   .example {
+      background: rgb(192, 255, 213);
+   }
+   .container {
+      width: 80%;
+      margin: 0 auto;
+   }
+}
+ 
+
+/*coloring backgrpid of div size indicator*/
+.example {
+   padding: 20px;
+   color: rgb(219, 30, 30);
+}
+
+/*----------------------
+End of media query and screen size control 
+------------------------*/
+
+
+
+
+
+/*--------------------
+Page Header
+----------------------*/
+.website-header-grid-structure {
+
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: 35px 270px 120px 45px;
+
+}
+
+
+.all-websites-top-menu {
+
+   background: cornflowerblue;
+   color: red;
+   margin: 5px 0 5px 0;
+}
+
+
+.top-huge-banner {
+
+   background: rgb(26, 104, 36);
+   color: red;
+   margin: 5px 0 5px 0;
+
+}
+
+
+
+.website-logo {
+
+   background-color: rgb(72, 36, 139);
+   color: red;
+   margin: 5px 0 5px 0;
+
+}
+
+
+.website-main-nenu {
+
+   background-color: rgb(40, 205, 211);
+   color: red;
+   margin: 5px 0 5px 0;
+}
+
+
+
+/*---------------------------------
+website Page main Structure
+------------------------------------*/
+
+.website-middle-grid-structure {
+   display: grid;
+   grid-template-columns: 170px 1fr 170px;
+   grid-template-rows: 1fr;
+}
+
+
+
+.left-banner {
+   background: darkgreen;
+   color: red;
+   margin-right: 5px;
+   margin-bottom: 5px;
+
+}
+
+
+.website-right-menu {
+   background: rgb(16, 209, 129);
+   color: red;
+   margin-left: 5px;
+   margin-bottom: 5px;
+}
+
+
+.location-bar {
+   background: rgb(85, 87, 86);
+   width: 600px;
+   height: 35px;
+   margin: 5px auto;
+}
+
+.website-page-content {
+   background: rgb(132, 126, 150);
+   margin: 5px;
+}
+
+
+/*--------------------
+Website Footer
+----------------------*/
+
+.website-footer {
+   display: grid;
+   grid-template-columns: 80%;
+   grid-template-rows: 300px;
+   background: rgb(175, 189, 166);
+   margin-top: 5px;
+   margin-bottom: 5px;
+
+}
+
+

@@ -1,0 +1,14 @@
+.logo{width:347px;height:65px;background:url(images/logo.png);top:44px;}
+#real_estate_cities{margin-left:10px;list-style:none;margin:0;padding:0;width:501px;position:relative;z-index:999;}
+#real_estate_cities>li{width:200px;border-left:1px solid #d4d6d9;}
+#real_estate_cities>li>a{border-top:1px solid #d1d3d6;}
+#real_estate_cities>li>div{display:none;width:300px;height:100%;position:absolute;top:0;left:0;}
+#real_estate_cities>li>div>a{width:80px;float:right;border:none;font-size:12px;margin-top:1px;}
+#real_estate_cities:hover>li>div{display:none;}
+#real_estate_cities>li:first-child>a{border-top:none;}
+#real_estate_cities>li:hover>div,#real_estate_cities>li:hover span{display:block;}
+#real_estate_cities>li:hover>a{background-color:#d8dfea;}
+#real_estate_cities a>span{background-image:url(images/sprites.png);background-repeat:no-repeat;background-position:-432px -18px;width:7px;height:19px;margin-top:5px;display:none;float:left;}
+
+/*#real_estate_cities>li:first-child>div{display:block;}*/
+/*.sub{display:block !important;}*/
